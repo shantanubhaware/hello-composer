@@ -1,0 +1,17 @@
+{
+    "name": "shantanubhaware/hello-composer",
+    "description": "hello-composer",
+    "require": {
+        "php": "^7.0"
+		
+    },
+	"autoload": {
+        "psr-4": {"shantanubhaware\\CHelloComposer\\": "src/"}
+    },
+	"authors": [
+        {
+            "name": "sbhaware01",
+            "email": "sbhaware01@xento.com"
+        }
+    ]
+}
