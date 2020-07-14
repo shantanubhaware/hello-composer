@@ -8,4 +8,8 @@ class CHelloComposer
 	{
 		return $greet;
 	}
+	
+	public function sayBye( $byeMessage = 'Bye' ) {
+		return $byeMessage;
+	}
 }
